@@ -1,0 +1,94 @@
+body {
+  direction: rtl;
+  line-height: 21px;
+  font-family: iransans-web;
+  font-size: 11px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e74c3c
+}
+
+a {
+  text-decoration: none;
+  color: #e74c3c;
+}
+
+input[type="email"]:focus {
+  border: 1px solid #f7bcac;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #e74c3c;
+}
+
+#header {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eee;
+}
+
+#header #logo {
+  display: block;
+  text-decoration: none;
+}
+
+#header #logo img {
+  height: 25px;
+}
+
+#header #tagline {
+  display: block;
+  float: right;
+  line-height: 35px;
+  color: #666;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  padding-top: 10px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #eee;
+  font-size: 9px;
+}
+
+.full-width-container {
+  clear: both;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.last {
+  margin-bottom: 0;
+}
+
+.button-primary {
+  background-color: #e74c3c !important;
+  border-color: #e74c3c !important;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.en {
+  font-family: 'Trebuchet MS';
+  font-size: 1.5em;
+}
+
+.box {
+  margin-top: 15%;
+  padding: 20px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+}
